@@ -1,0 +1,29 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "Learning Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Eli-Nathan@github.com/Eli-Nathan/Webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "wip"
+  ],
+  "author": "Eli Nathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eli-Nathan/Webpack/issues"
+  },
+  "homepage": "https://github.com/Eli-Nathan/Webpack#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.4"
+  }
+}

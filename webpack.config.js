@@ -5,5 +5,20 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  // Add the JSHint loader
+  module: {
+    rules: [
+      {
+        test: /.js/,
+        enforce: 'pre',
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: `jshint-loader`
+          }
+        ]
+      }
+    ]
   }
 };
